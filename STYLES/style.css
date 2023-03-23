@@ -1,0 +1,112 @@
+*{
+    border: 1px dashed rgb(232, 238, 114, 0.2);
+    margin: 3px;
+    padding: 3px;
+
+    background-color: rgba(160, 119, 225, 0.08);
+
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    color: white;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    font-size: large;
+}
+html{
+    background-color: black;
+}
+body{
+    text-align: center;
+
+
+    /*  ,linear-gradient(14deg, rgba(28,0,62,1) 0%, rgba(7,71,46,1) 51%, rgba(134,252,122,1) 100%);
+        background-attachment: fixed;*/
+    
+    
+}
+header{
+    padding: 60px;
+
+    
+
+    background-image: url(../IMAGES/Patron_Pagina.png);
+    background-size: 20%;
+}
+h1{
+    margin: 5px;
+
+    padding: 8px;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 70px;
+    color: rgb(58, 218, 103);
+    text-shadow: 0 0 10px rgb(75, 154, 23);
+
+    
+    background-color: rgba(59, 33, 101, 0.5);
+}
+h2{
+    margin: 5px;
+
+    padding: 8px;
+
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    color: rgb(58, 218, 103);
+    text-shadow: 0 0 10px rgb(75, 154, 23);
+
+    
+    background-color: rgba(59, 33, 101, 0.5);
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+nav div{
+    margin: 5px;
+    padding: 8px;
+    width:30%;
+    
+    background-color: rgb(11, 51, 27);
+}
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-top: 30px;
+}
+
+aside{
+    width: 20%;
+}
+aside div{
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(11, 51, 27);
+}
+
+
+article{ /*Contenido principal*/
+    width: 80%;
+
+}
+article p{
+    padding: 10px;
+}
+section{
+    margin-top: 30px;
+    padding: 10px;
+}
+
+
+footer{
+    position: relative;
+    margin-top: 300px;
+    clear: both;
+padding: 30px;
+}
+
+button{
+    margin-top: 10px;
+    padding: 10px;
+    border: 5px dashed rgb(62, 226, 62);
+    background-color: rgb(134, 63, 193, 0.5);
+}
