@@ -1,4 +1,4 @@
-# Wizard Coon Code
+# Code Coon Code
 
 Saludos, amigos.
 Yo soy Alex, y os doy la bienvenida a mi página
