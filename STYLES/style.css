@@ -11,9 +11,12 @@ body *{
     font-size: large;
     text-align: center;
 }
-html{
+body{
     background-color: rgb(9, 7, 12);
 }
+
+
+
 
 header{
     padding: 60px;
@@ -21,7 +24,7 @@ header{
     background-image: url(../IMAGES/Patron_Pagina.png);
     background-size: 20%;
 }
-h1{
+h1, h2{
     margin: 5px;
     padding: 8px;
 
@@ -34,17 +37,11 @@ h1{
     background-color: rgba(59, 33, 101, 0.5);
 }
 h2{
-    margin: 5px;
-    padding: 8px;
-
-    font-family: 'Rubik Iso', cursive;
     font-size: 40px;
-    color: rgb(58, 218, 103);
-    text-shadow: 0 0 10px rgb(75, 154, 23);
-
-    
-    background-color: rgba(59, 33, 101, 0.5);
 }
+
+
+
 nav{
     display: flex;
     justify-content: center;
@@ -56,6 +53,8 @@ nav div{
     
     background-color: rgb(11, 51, 26);
 }
+
+
 
 main{
     margin-left: 10%;
@@ -76,16 +75,16 @@ aside div{
 
 
 article{ /*Contenido principal*/
-    width: 80%;
+        width: 80%;
 
-}
-article p{
-    padding: 10px;
-}
-section{
-    margin-top: 30px;
-    padding: 10px;
-}
+    }
+    article p{
+        padding: 10px;
+    }
+    section{
+        margin-top: 30px;
+        padding: 10px;
+    }
 
 
 footer{
@@ -95,6 +94,9 @@ footer{
     padding: 30px;
 }
 
+
+
+
 button{
     width: 100px;
     margin-top: 10px;
@@ -102,4 +104,10 @@ button{
     border: 5px double rgb(62, 226, 62);
     border-radius: 6px;
     background-color: rgb(134, 63, 193, 0.5);
+}
+
+a{
+    border: 0;
+    padding: 0;
+    margin: 0;
 }
