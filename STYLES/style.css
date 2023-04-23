@@ -1,5 +1,6 @@
 body *{
     border: 1px dashed rgb(232, 238, 114, 0.2);
+    border-radius: 5px;
     margin: 3px;
     padding: 3px;
 
@@ -19,7 +20,7 @@ body{
 
 
 header{
-    padding: 60px;
+    padding: 20px 100px;
 
     background-image: url(../IMAGES/Patron_Pagina.png);
     background-size: 20%;
@@ -63,10 +64,10 @@ main{
     margin-top: 30px;
 }
 
-aside{
+main aside{
     width: 20%;
 }
-aside div{
+main aside div{
     padding: 10px;
     margin-top: 10px;
 
@@ -74,16 +75,17 @@ aside div{
 }
 
 
-article{ /*Contenido principal*/
+main article{ /*Contenido principal*/
         width: 80%;
 
     }
-    article p{
+article p{
         padding: 10px;
     }
-    section{
+section{
         margin-top: 30px;
         padding: 10px;
+        background-color: rgba(18, 11, 51, 0.5);
     }
 
 
@@ -101,13 +103,22 @@ button{
     width: 100px;
     margin-top: 10px;
     padding: 10px;
-    border: 5px double rgb(62, 226, 62);
+    border: 5px double rgb(188, 219, 136);
     border-radius: 6px;
-    background-color: rgb(134, 63, 193, 0.5);
+    background-color: rgba(90, 49, 167, 0.5);
+    box-shadow: rgb(25, 7, 46) 3px 6px;
 }
 
 a{
     border: 0;
     padding: 0;
     margin: 0;
+}
+.opciones{
+    display: flex;
+    justify-content: center;
+}
+.PPTOpcion{
+    width: 30%;
+    padding: 20px;
 }
