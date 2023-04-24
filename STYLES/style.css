@@ -48,7 +48,8 @@ nav{
     justify-content: center;
 }
 nav div{
-    margin: 5px;
+    cursor: pointer;
+    margin: 5px 10px;
     padding: 8px;
     width:25%;
     
@@ -68,6 +69,7 @@ main aside{
     width: 20%;
 }
 main aside div{
+    cursor: pointer;
     padding: 10px;
     margin-top: 10px;
 
@@ -100,6 +102,7 @@ footer{
 
 
 button{
+    cursor: pointer;
     width: 100px;
     margin-top: 10px;
     padding: 10px;
@@ -114,11 +117,56 @@ a{
     padding: 0;
     margin: 0;
 }
+
+/*PIEDRA PAPEL TIJERA*/
 .opciones{
     display: flex;
     justify-content: center;
+    margin: 0 10%;
 }
-.PPTOpcion{
-    width: 30%;
+.IMAGENPPT{
+    border: none;
+    background: none;
+}
+.IMAGENPPT img{
+    width: 80%;
+    cursor: pointer;
+    transition: all 0.05s ease-in-out;
+}
+
+.IMAGENPPT img:hover{
+    box-shadow: 0 0 20px rgba(85, 245, 106, 0.8);
+    transform: scale(1.1);
+    border: double 4px rgb(58, 218, 103);
+}
+
+.BOTON{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+}
+.BOTON *{
+    border: none;
+    background: none;
+}
+
+.Resultados{
+    margin: 0 10%;
+}
+.ganador{
     padding: 20px;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    color: rgb(58, 218, 103);
+    text-shadow: 0 0 10px rgb(75, 154, 23);
 }
+/* div {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  div:hover {
+    transform: scale(1.1);
+  } */

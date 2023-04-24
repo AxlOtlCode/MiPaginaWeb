@@ -15,25 +15,41 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@600&display=swap" rel="stylesheet">
 
-
-    <script>
-        // 1 es papel, 2 es tijera, 3 es tijera
-        let Player = 0
-        let PC = 2
-    </script>
 </head>
+
+
 <body>
-    <h1>Piedra Paper Tijeras</h1>
+    <h1>Piedra Papel Tijeras</h1>
+
+    <h2>ELIGE UNA OPCIÓN</h2>
     <div class="opciones">
-        <div class="PPTOpcion">PIEDRA
-            <div class="IMAGENPPT"></div>
-        </div>
-        <div class="PPTOpcion">PAPEL
-            <div class="IMAGENPPT"></div>
-        </div>
-        <div class="PPTOpcion">TIJERA
-            <div class="IMAGENPPT"></div>
+            <div class="IMAGENPPT" id="piedra">
+                <p>Piedra</p>
+                <br>
+                <img src="IMAGES/PIEDRA.png" alt="piedra" ></div>
+        
+
+            <div class="IMAGENPPT" id="papel">
+                <p>Papel</p>
+                <br>
+                <img src="IMAGES/PAPEL.png" alt="papel"></div>
+
+            <div class="IMAGENPPT" id="tijera">
+                <p>Tijera</p>
+                <br>
+                <img src="IMAGES/TIJERAS.png" alt="tijera" ></div>
+    </div> 
+
+    
+    
+    <br>
+    <div class="Resultados">
+        <h2>Resultados</h2>
+        <div id="resultado">
+            
         </div>
     </div>
+
+    <script src="SCRIPT/piedraPaperTijera.js"></script>
 </body>
 </html>
