@@ -4,20 +4,20 @@ body *{
     margin: 3px;
     padding: 3px;
 
-    background-color: rgba(80, 58, 117, 0.3);
+    background-color: rgba(76, 53, 114, 0.3);
 
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     color: white;
-    text-shadow: 1px 1px 2px rgb(255, 255, 255);
-    font-size: large;
     text-align: center;
 }
 body{
-    background-color: rgb(9, 7, 12);
+    background-color: rgb(6, 6, 7);
 }
 
 
-
+b{
+    text-shadow: 1px 1px 5px greenyellow;
+}
 
 header{
     padding: 20px 100px;
@@ -25,7 +25,7 @@ header{
     background-image: url(../IMAGES/Patron_Pagina.png);
     background-size: 20%;
 }
-h1, h2{
+h1{
     margin: 5px;
     padding: 8px;
 
@@ -38,7 +38,29 @@ h1, h2{
     background-color: rgba(59, 33, 101, 0.5);
 }
 h2{
-    font-size: 40px;
+    font-size: 30px;
+    margin: 5px;
+    padding: 6px;
+
+    font-family: 'Rubik Iso', cursive;
+    color: rgb(58, 218, 103);
+    text-shadow: 0 0 10px rgb(75, 154, 23);
+
+    
+    background-color: rgba(59, 33, 101, 0.5);
+}
+
+h3{
+    font-size: 20px;
+    margin: 5px;
+    padding: 6px;
+
+    font-family: 'Rubik Iso', cursive;
+    color: rgb(58, 218, 103);
+    text-shadow: 0 0 10px rgb(75, 154, 23);
+
+    
+    background-color: rgba(59, 33, 101, 0.5);
 }
 
 
@@ -49,7 +71,7 @@ nav{
 }
 nav div{
     cursor: pointer;
-    margin: 5px 10px;
+    margin: 5px 5px;
     padding: 8px;
     width:25%;
     
