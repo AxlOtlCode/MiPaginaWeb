@@ -29,10 +29,10 @@ function iniciarjuego(opcion){
     const comp = comparacion(movPC, movUsuario);
     //RESULTADO
     if (comp == 1) {
-        ResultadoJuego.innerHTML = "Usuario elige "+ movUsuario + " <br><br> Pc elige "+ movPC+ "<br><br><br>  <span class='ganador'> ¡Tu ganas! </span><br><br><br> "   
+        ResultadoJuego.innerHTML = "Usuario elige "+ movUsuario + " <br><br> Pc elige "+ movPC+ "<br><br><br>  <span class='ganador'> ¡Tu pierdes! </span><br><br><br> "   
     }
     if (comp == 2) {
-        ResultadoJuego.innerHTML = "Usuario elige "+ movUsuario + " <br><br> Pc elige "+ movPC+ "<br><br><br>  <span class='ganador'> ¡Tu pierdes! </span><br><br><br> "   
+        ResultadoJuego.innerHTML = "Usuario elige "+ movUsuario + " <br><br> Pc elige "+ movPC+ "<br><br><br>  <span class='ganador'> ¡Tu ganas! </span><br><br><br> "   
     }
     if (comp == 3) {
         ResultadoJuego.innerHTML = "Usuario elige "+ movUsuario + " <br><br> Pc elige "+ movPC+ "<br><br><br>  <span class='ganador'> ¡Empate! </span><br><br><br> "   
