@@ -1,10 +1,8 @@
 body *{
-    border: 1px dashed rgb(232, 238, 114, 0.2);
-    border-radius: 5px;
-    margin: 3px;
+    margin: 0 auto;
     padding: 3px;
 
-    background-color: rgba(76, 53, 114, 0.3);
+    background-color: rgba(53, 90, 114, 0.3);
 
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     color: white;
@@ -12,6 +10,8 @@ body *{
 }
 body{
     background-color: rgb(6, 6, 7);
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -20,10 +20,14 @@ b{
 }
 
 header{
-    padding: 20px 100px;
+    margin: 0;
+    padding: 0;
+
+    width: 110%;
 
     background-image: url(../IMAGES/Patron_Pagina.png);
-    background-size: 20%;
+    background-size: 25%;
+
 }
 h1{
     margin: 5px;
@@ -31,51 +35,73 @@ h1{
 
     font-family: 'Rubik Iso', cursive;
     font-size: 70px;
-    color: rgb(58, 218, 103);
-    text-shadow: 0 0 10px rgb(75, 154, 23);
-
-    
-    background-color: rgba(59, 33, 101, 0.5);
-}
+    color: rgb(251, 255, 240);
+    text-shadow:3px 3px 0 rgb(21, 255, 0),3px 3px 10px rgb(181, 255, 111),
+                -3px -3px 0 rgb(0, 255, 221), -3px -3px 10px rgb(75, 234, 255);
+    background: none;
+} 
 h2{
     font-size: 30px;
     margin: 5px;
     padding: 6px;
 
     font-family: 'Rubik Iso', cursive;
-    color: rgb(58, 218, 103);
-    text-shadow: 0 0 10px rgb(75, 154, 23);
+    color: rgb(255, 255, 255);
+    text-shadow: 2.5px 2.5px 0 rgb(130, 199, 91), 2.5px 2.5px 5px rgb(181, 255, 111),
+                -2.5px -2.5px 0 rgb(76, 184, 169), -2.5px -2.5px 5px rgb(75, 234, 255);
 
-    
-    background-color: rgba(59, 33, 101, 0.5);
+    background: none;
 }
 
 h3{
     font-size: 20px;
-    margin: 5px;
+    margin: 2px 0 ;
     padding: 6px;
 
     font-family: 'Rubik Iso', cursive;
-    color: rgb(58, 218, 103);
-    text-shadow: 0 0 10px rgb(75, 154, 23);
+    color: rgb(90, 255, 75);
+    text-shadow: 1px 1px 10px rgb(66, 63, 238);
 
     
-    background-color: rgba(59, 33, 101, 0.5);
+}
+hr{
+    width: 50%;
+    padding: 0;
+    border: 1px solid greenyellow;
+    box-shadow: 2.5px 2.5px 0 rgb(130, 199, 91), 2.5px 2.5px 5px rgb(181, 255, 111),
+                -2.5px -2.5px 0 rgb(76, 184, 169), -2.5px -2.5px 5px rgb(75, 234, 255);
 }
 
 
 
 nav{
+    background-color: rgb(0, 0, 0, 0.7);
+
+    border: none;
+    padding: 0;
     display: flex;
     justify-content: center;
+
+    width: 100%;
+
+    box-shadow: 0 3px 0 rgb(20, 27, 41);
+    
+    
+    position: fixed;
+    left: 50%;
+    top: 0 vw;
+    transform: translate(-50%);
 }
 nav div{
-    cursor: pointer;
-    margin: 5px 5px;
-    padding: 8px;
-    width:25%;
+
+    box-shadow: 3px 3px 0  rgb(20, 38, 39);
     
-    background-color: rgb(11, 51, 26);
+    cursor: pointer;
+    margin: 10px 5px;
+    padding: 8px;
+    width: 20%;
+    
+    background-color: rgb(20, 73, 51);
 }
 
 
@@ -85,22 +111,25 @@ main{
     margin-right: 10%;
     display: flex;
     margin-top: 30px;
+    padding: 0;
 }
 
 main aside{
     width: 20%;
+    margin: 1%;
 }
 main aside div{
     cursor: pointer;
     padding: 10px;
     margin-top: 10px;
 
-    background-color: rgb(11, 51, 26);
+    background-color: rgb(26, 68, 45);
 }
 
 
 main article{ /*Contenido principal*/
         width: 80%;
+        margin: 1%;
 
     }
 article p{
@@ -109,7 +138,7 @@ article p{
 section{
         margin-top: 30px;
         padding: 10px;
-        background-color: rgba(18, 11, 51, 0.5);
+        background-color: rgba(11, 51, 13, 0.5);
     }
 
 
