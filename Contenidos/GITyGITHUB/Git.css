@@ -2,11 +2,13 @@ body *{
     margin: 0 auto;
     padding: 3px;
 
-    background-color: rgba(53, 90, 114, 0.3);
+    background-color: rgba(114, 69, 53, 0.3);
 
     font-family: 'Sofia Sans Semi Condensed', sans-serif;
     color: white;
     text-align: center;
+
+    
 }
 body{
     background-color: rgb(23, 23, 27);
@@ -14,9 +16,11 @@ body{
     padding: 0;
 }
 
-
+p{
+    background-color: transparent;
+}
 b{
-    text-shadow: 1px 1px 5px greenyellow;
+    text-shadow: 1px 1px 5px rgb(255, 193, 47);
 }
 
 header{
@@ -25,8 +29,13 @@ header{
 
     width: 100%;
 
-    background-image: url(../IMAGES/Patron_Pagina.png);
-    background-size: 25%;
+    background-image: url(../../IMAGES/wallpaperflare.com_wallpaper.jpg);
+
+    
+
+    
+    background-size: 100%;
+    background-position: 0 -100px;
 
 }
 h1{
@@ -36,8 +45,8 @@ h1{
     font-family: 'Rubik Iso', cursive;
     font-size: 70px;
     color: rgb(219, 219, 219);
-    text-shadow:3px 3px 0 rgb(22, 255, 1, 0.3),3px 3px 10px rgb(181, 255, 111, 0.5),
-                -3px -3px 0 rgba(0, 255, 221, 0.3), -3px -3px 10px rgb(75, 234, 255, 0.5);
+    text-shadow:3px 3px 0 rgba(255, 1, 1, 0.3),3px 3px 10px rgba(255, 111, 111, 0.5),
+                -3px -3px 0 rgba(255, 251, 0, 0.3), -3px -3px 10px rgba(255, 243, 75, 0.5);
     background: none;
 } 
 h2{
@@ -47,8 +56,8 @@ h2{
 
     font-family: 'Rubik Iso', cursive;
     color: rgb(255, 255, 255);
-    text-shadow: 2.5px 2.5px 0 rgb(130, 199, 91, 0.3), 2.5px 2.5px 5px rgb(181, 255, 111, 0.7),
-                -2.5px -2.5px 0 rgb(76, 184, 169, 0.3), -2.5px -2.5px 5px rgb(75, 234, 255, 0.7);
+    text-shadow: 2.5px 2.5px 0 rgba(199, 91, 91, 0.3), 2.5px 2.5px 5px rgba(255, 111, 111, 0.7),
+                -2.5px -2.5px 0 rgba(184, 177, 76, 0.3), -2.5px -2.5px 5px rgba(255, 243, 75, 0.7);
 
     background: none;
 }
@@ -59,25 +68,25 @@ h3{
     padding: 6px;
 
     font-family: 'Rubik Iso', cursive;
-    color: rgb(90, 255, 75);
-    text-shadow: 1px 1px 10px rgb(66, 63, 238);
+    color: rgb(255, 75, 75);
+    text-shadow: 1px 1px 10px rgb(238, 218, 63);
 
     
 }
 hr{
     width: 50%;
     padding: 0;
-    border: 1px solid greenyellow;
-    box-shadow: 2.5px 2.5px 0 rgb(130, 199, 91), 2.5px 2.5px 5px rgb(181, 255, 111),
-                -2.5px -2.5px 0 rgb(76, 184, 169), -2.5px -2.5px 5px rgb(75, 234, 255);
+    border: 1px solid rgb(255, 137, 47);
+    box-shadow: 2.5px 2.5px 0 rgb(199, 91, 91), 2.5px 2.5px 5px rgb(255, 111, 111),
+                -2.5px -2.5px 0 rgb(184, 182, 76), -2.5px -2.5px 5px rgb(255, 252, 75);
 }
 
 
 
 nav{
-    background-color: rgb(24, 27, 32);
+    background-color: rgb(32, 27, 24);
     
-    box-shadow: 0 3px 0 rgb(20, 27, 41);
+    box-shadow: 0 3px 0 rgb(41, 37, 20);
 
     border: none;
     padding: 0 10px;
@@ -99,15 +108,15 @@ nav a{
 
     text-decoration: none;
     
-    box-shadow: 0 3px 0 rgb(20, 27, 41);
+    box-shadow: 0 3px 0 rgb(41, 27, 20);
     background-color: rgb(0, 0, 0);
     transition: all 0.2s;
 }
 nav a:hover{
     
-    text-shadow: 0 0 2px rgb(249, 255, 215);
-    background-color: rgb(39, 126, 58);
-    box-shadow: 0 3px 0 rgb(85, 189, 85);
+    text-shadow: 0 0 2px rgb(255, 238, 215);
+    background-color: rgb(126, 39, 39);
+    box-shadow: 0 3px 0 rgb(189, 172, 85);
 }
 
 
@@ -123,6 +132,13 @@ main aside{
     width: 20%;
     margin: 10px 5px;
 }
+main aside a{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: auto;
+    background: none
+}
 main aside a button{
     width: 90%;
     height:50px;
@@ -131,16 +147,17 @@ main aside a button{
     margin-top: 10px;
     text-decoration: none;
 
-    background-color: rgb(21, 48, 30);
+    background-color: rgb(48, 21, 21);
     transition: 0.3s all;
 }
 main aside a button:hover{
     transform: scale(1.1);
 
-    box-shadow: 0 0 3px rgb(215, 255, 166);
+    box-shadow: 0 0 3px rgb(255, 239, 166);
 
-    background-color: rgb(30, 95, 53);
+    background-color: rgb(95, 30, 30);
 }
+
 
 main article{ /*Contenido principal*/
         width: 80%;
@@ -156,8 +173,8 @@ section{
         margin-top: 20px;
         
         padding: 10px;
-        background-color: rgba(11, 51, 13, 0.5);
-        box-shadow: 4px 4px 0 rgb(13, 21, 46), 8px 8px 0 rgb(0, 0, 0);
+        background-color: rgba(51, 35, 11, 0.5);
+        box-shadow: 4px 4px 0 rgb(46, 13, 13), 8px 8px 0 rgb(0, 0, 0);
     }
 
 
@@ -175,26 +192,22 @@ button{
     cursor: pointer;
     width: 100px;
     margin-top: 10px;
-    border: 5px double rgb(188, 219, 136);
+    border: 5px double rgb(219, 183, 136);
     border-radius: 6px;
-    background-color: rgba(49, 167, 151, 0.5);
-    box-shadow: rgb(7, 24, 46) 3px 6px;
+    background-color: rgba(167, 49, 49, 0.5);
+    box-shadow: rgb(46, 14, 7) 3px 6px;
     transition: all 0.2s;
     
 }
 button:hover{
     transform: scale(1.1);
-    border: 5px double rgb(245, 255, 227);
-    box-shadow: rgb(102, 255, 102) 0 0 6px;
+    border: 5px double rgb(255, 255, 227);
+    box-shadow: rgb(255, 250, 102) 0 0 6px;
     transition: all 0.2s;
 }
 
 
-a{
-    border: 0;
-    padding: 0;
-    margin: 0;
-}
+
 
 /*PIEDRA PAPEL TIJERA*/
 .opciones{
