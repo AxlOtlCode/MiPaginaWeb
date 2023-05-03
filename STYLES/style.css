@@ -23,7 +23,7 @@ header{
     margin: 0;
     padding: 0;
 
-    width: 110%;
+    width: 100%;
 
     background-image: url(../IMAGES/Patron_Pagina.png);
     background-size: 25%;
@@ -35,9 +35,9 @@ h1{
 
     font-family: 'Rubik Iso', cursive;
     font-size: 70px;
-    color: rgb(251, 255, 240);
-    text-shadow:3px 3px 0 rgb(21, 255, 0),3px 3px 10px rgb(181, 255, 111),
-                -3px -3px 0 rgb(0, 255, 221), -3px -3px 10px rgb(75, 234, 255);
+    color: rgb(219, 219, 219);
+    text-shadow:3px 3px 0 rgb(22, 255, 1, 0.3),3px 3px 10px rgb(181, 255, 111, 0.5),
+                -3px -3px 0 rgba(0, 255, 221, 0.3), -3px -3px 10px rgb(75, 234, 255, 0.5);
     background: none;
 } 
 h2{
@@ -47,8 +47,8 @@ h2{
 
     font-family: 'Rubik Iso', cursive;
     color: rgb(255, 255, 255);
-    text-shadow: 2.5px 2.5px 0 rgb(130, 199, 91), 2.5px 2.5px 5px rgb(181, 255, 111),
-                -2.5px -2.5px 0 rgb(76, 184, 169), -2.5px -2.5px 5px rgb(75, 234, 255);
+    text-shadow: 2.5px 2.5px 0 rgb(130, 199, 91, 0.3), 2.5px 2.5px 5px rgb(181, 255, 111, 0.7),
+                -2.5px -2.5px 0 rgb(76, 184, 169, 0.3), -2.5px -2.5px 5px rgb(75, 234, 255, 0.7);
 
     background: none;
 }
@@ -75,7 +75,7 @@ hr{
 
 
 nav{
-    background-color: rgb(0, 0, 0, 0.7);
+    background-color: rgb(0, 0, 0);
 
     border: none;
     padding: 0;
@@ -83,8 +83,6 @@ nav{
     justify-content: center;
 
     width: 100%;
-
-    box-shadow: 0 3px 0 rgb(20, 27, 41);
     
     
     position: fixed;
@@ -93,17 +91,19 @@ nav{
     transform: translate(-50%);
 }
 nav div{
-
-    box-shadow: 3px 3px 0  rgb(20, 38, 39);
-    
     cursor: pointer;
-    margin: 10px 5px;
     padding: 8px;
-    width: 20%;
+    width: 100%;
     
-    background-color: rgb(20, 73, 51);
+    box-shadow: 0 3px 0 rgb(20, 27, 41);
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s;
 }
-
+nav div:hover{
+    text-shadow: 0 0 2px rgb(249, 255, 215);
+    background-color: rgb(39, 126, 58);
+    box-shadow: 0 3px 0 rgb(85, 189, 85);
+}
 
 
 main{
@@ -116,29 +116,41 @@ main{
 
 main aside{
     width: 20%;
-    margin: 1%;
+    margin: 10px 5px;
 }
 main aside div{
     cursor: pointer;
+    margin: 5px;
     padding: 10px;
     margin-top: 10px;
+    height: 15px;
 
-    background-color: rgb(26, 68, 45);
+    background-color: rgb(21, 48, 42);
+    transition: 0.3s all;
+}
+main aside div:hover{
+    transform: scale(1.1);
+
+    box-shadow: 0 0 3px rgb(198, 255, 166);
+
+    background-color: rgb(30, 95, 95);
 }
 
 
 main article{ /*Contenido principal*/
         width: 80%;
-        margin: 1%;
-
+        margin: 10px 5px;
     }
 article p{
         padding: 10px;
     }
 section{
-        margin-top: 30px;
+        width: 80%;
+        
+        margin: 10px 10px;
         padding: 10px;
         background-color: rgba(11, 51, 13, 0.5);
+        box-shadow: 4px 4px 0 rgb(13, 21, 46), 8px 8px 0 rgb(0, 0, 0);
     }
 
 
@@ -156,12 +168,20 @@ button{
     cursor: pointer;
     width: 100px;
     margin-top: 10px;
-    padding: 10px;
     border: 5px double rgb(188, 219, 136);
     border-radius: 6px;
-    background-color: rgba(90, 49, 167, 0.5);
-    box-shadow: rgb(25, 7, 46) 3px 6px;
+    background-color: rgba(49, 167, 151, 0.5);
+    box-shadow: rgb(7, 24, 46) 3px 6px;
+    transition: all 0.2s;
+    
 }
+button:hover{
+    transform: scale(1.1);
+    border: 5px double rgb(245, 255, 227);
+    box-shadow: rgb(102, 255, 102) 0 0 6px;
+    transition: all 0.2s;
+}
+
 
 a{
     border: 0;
