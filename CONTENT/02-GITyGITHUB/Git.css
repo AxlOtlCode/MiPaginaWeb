@@ -1,0 +1,263 @@
+body *{
+    margin: 0 auto;
+    padding: 3px;
+
+    background-color: rgba(114, 69, 53, 0.3);
+
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    color: white;
+    text-align: center;
+
+    
+}
+body{
+    background-color: rgb(23, 23, 27);
+    margin: 0;
+    padding: 0;
+}
+
+p{
+    background-color: transparent;
+}
+b{
+    text-shadow: 1px 1px 5px rgb(255, 193, 47);
+}
+
+header{
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+
+    background-image: url(../../IMAGES/wallpaperflare.com_wallpaper.jpg);
+
+    
+
+    
+    background-size: 100%;
+    background-position: 0 -100px;
+
+}
+h1{
+    margin: 5px;
+    padding: 8px;
+
+    font-family: 'Rubik Iso', cursive;
+    font-size: 70px;
+    color: rgb(219, 219, 219);
+    text-shadow:3px 3px 0 rgba(255, 1, 1, 0.3),3px 3px 10px rgba(255, 111, 111, 0.5),
+                -3px -3px 0 rgba(255, 251, 0, 0.3), -3px -3px 10px rgba(255, 243, 75, 0.5);
+    background: none;
+} 
+h2{
+    font-size: 30px;
+    margin: 5px;
+    padding: 6px;
+
+    font-family: 'Rubik Iso', cursive;
+    color: rgb(255, 255, 255);
+    text-shadow: 2.5px 2.5px 0 rgba(199, 91, 91, 0.3), 2.5px 2.5px 5px rgba(255, 111, 111, 0.7),
+                -2.5px -2.5px 0 rgba(184, 177, 76, 0.3), -2.5px -2.5px 5px rgba(255, 243, 75, 0.7);
+
+    background: none;
+}
+
+h3{
+    font-size: 20px;
+    margin: 2px 0 ;
+    padding: 6px;
+
+    font-family: 'Rubik Iso', cursive;
+    color: rgb(255, 75, 75);
+    text-shadow: 1px 1px 10px rgb(238, 218, 63);
+
+    
+}
+hr{
+    width: 50%;
+    padding: 0;
+    border: 1px solid rgb(255, 137, 47);
+    box-shadow: 2.5px 2.5px 0 rgb(199, 91, 91), 2.5px 2.5px 5px rgb(255, 111, 111),
+                -2.5px -2.5px 0 rgb(184, 182, 76), -2.5px -2.5px 5px rgb(255, 252, 75);
+}
+
+
+
+nav{
+    background-color: rgb(32, 27, 24);
+    
+    box-shadow: 0 3px 0 rgb(41, 37, 20);
+
+    border: none;
+    padding: 0 10px;
+    display: flex;
+    justify-content: center;
+
+    width: 90%;
+    
+    
+    position: fixed;
+    left: 50%;
+    top: 0 vw;
+    transform: translate(-50%);
+}
+nav a{
+    cursor: pointer;
+    padding: 8px;
+    width: 100%;
+
+    text-decoration: none;
+    
+    box-shadow: 0 3px 0 rgb(41, 27, 20);
+    background-color: rgb(0, 0, 0);
+    transition: all 0.2s;
+}
+nav a:hover{
+    
+    text-shadow: 0 0 2px rgb(255, 238, 215);
+    background-color: rgb(126, 39, 39);
+    box-shadow: 0 3px 0 rgb(189, 172, 85);
+}
+
+
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    margin-top: 30px;
+    padding: 0;
+}
+
+main aside{
+    width: 20%;
+    margin: 10px 5px;
+}
+main aside a{
+    margin: 0;
+    padding: 0;
+    border: none;
+    width: auto;
+    background: none
+}
+main aside a button{
+    width: 90%;
+    height:50px;
+
+    cursor: pointer;
+    margin-top: 10px;
+    text-decoration: none;
+
+    background-color: rgb(48, 21, 21);
+    transition: 0.3s all;
+}
+main aside a button:hover{
+    transform: scale(1.1);
+
+    box-shadow: 0 0 3px rgb(255, 239, 166);
+
+    background-color: rgb(95, 30, 30);
+}
+
+
+main article{ /*Contenido principal*/
+        width: 80%;
+        margin: 10px 5px;
+    }
+article p{
+        padding: 10px;
+    }
+section{
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+        
+        padding: 10px;
+        background-color: rgba(51, 35, 11, 0.5);
+        box-shadow: 4px 4px 0 rgb(46, 13, 13), 8px 8px 0 rgb(0, 0, 0);
+    }
+
+
+footer{
+    position: relative;
+    margin-top: 300px;
+    clear: both;
+    padding: 30px;
+}
+
+
+
+
+button{
+    cursor: pointer;
+    width: 100px;
+    margin-top: 10px;
+    border: 5px double rgb(219, 183, 136);
+    border-radius: 6px;
+    background-color: rgba(167, 49, 49, 0.5);
+    box-shadow: rgb(46, 14, 7) 3px 6px;
+    transition: all 0.2s;
+    
+}
+button:hover{
+    transform: scale(1.1);
+    border: 5px double rgb(255, 255, 227);
+    box-shadow: rgb(255, 250, 102) 0 0 6px;
+    transition: all 0.2s;
+}
+
+
+
+
+/*PIEDRA PAPEL TIJERA*/
+.opciones{
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+}
+.IMAGENPPT{
+    border: none;
+    background: none;
+}
+.IMAGENPPT img{
+    width: 80%;
+    cursor: pointer;
+    transition: all 0.05s ease-in-out;
+}
+
+.IMAGENPPT img:hover{
+    box-shadow: 0 0 20px rgba(85, 245, 106, 0.8);
+    transform: scale(1.1);
+    border: double 4px rgb(58, 218, 103);
+}
+
+.BOTON{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 300px;
+}
+.BOTON *{
+    border: none;
+    background: none;
+}
+
+.Resultados{
+    margin: 0 10%;
+}
+.ganador{
+    padding: 20px;
+    font-family: 'Rubik Iso', cursive;
+    font-size: 40px;
+    color: rgb(58, 218, 103);
+    text-shadow: 0 0 10px rgb(75, 154, 23);
+}
+/* div {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+    transition: all 0.1s ease-in-out;
+  }
+  
+  div:hover {
+    transform: scale(1.1);
+  } */
