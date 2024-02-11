@@ -31,7 +31,7 @@ header{
 }
 h1{
     margin: 5px;
-    padding: 8px;
+    padding: 60px 8px 8px;
 
     font-family: 'Rubik Iso', cursive;
     font-size: 70px;
@@ -43,7 +43,7 @@ h1{
 h2{
     font-size: 30px;
     margin: 5px;
-    padding: 6px;
+    padding: 10px 6px 20px;
 
     font-family: 'Rubik Iso', cursive;
     color: rgb(255, 255, 255);
@@ -66,6 +66,7 @@ h3{
 }
 hr{
     width: 50%;
+    margin: 5px auto;
     padding: 0;
     border: 1px solid greenyellow;
     box-shadow: 2.5px 2.5px 0 rgb(130, 199, 91), 2.5px 2.5px 5px rgb(181, 255, 111),
